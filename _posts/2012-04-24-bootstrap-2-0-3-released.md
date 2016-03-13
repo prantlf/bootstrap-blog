@@ -10,9 +10,9 @@ Today we're releasing [Bootstrap 2.0.3](http://getbootstrap.com), another bugfix
 
 In the spirit of always improving the LESS functionality and build tools, we've updated our makefile to utilize [JSHint](http://jshint.com) and [Recess](http://twitter.github.com/recess), linters for javascript and CSS. To continue to run `make` via Terminal, do the following:
 
-<pre class="prettyprint linenums">
+{% highlight bash %}
 $ npm install -g recess jshint
-</pre>
+{% endhighlight %}
 
 We've also removed the bootstrap.zip file from the repository, so make runs much faster as it has no need to compress any files. For more info, see the [updated readme](https://github.com/twbs/bootstrap/blob/master/README.md).
 
@@ -87,9 +87,9 @@ We've also removed the bootstrap.zip file from the repository, so make runs much
 - Fixed mention of how to add plain text to the navbar. Previously the docs stated you only needed a `p` tag, but the required HTML is any element with class `.navbar-text`.
 - Clarified the use of `.tabbable` for tabs. The wrapping class is only required for left and right tabs to clear their floats. Also added mention of `.fade` to fade in tabs.
 - Updated forms documentation:
-	- Remove unnecessary duplicate help text in first example
-	- Added mention of required `input` class, `.search-query`, for the search form variation
-	- Removed incorrect mention of form fields being `display: block;` to start as fields are `inline-block` to start.
+    - Remove unnecessary duplicate help text in first example
+    - Added mention of required `input` class, `.search-query`, for the search form variation
+    - Removed incorrect mention of form fields being `display: block;` to start as fields are `inline-block` to start.
 - Added mention of `data-target` attribute for the dropdowns javascript plugin to show how to keep custom URLs intact on links with `.dropdown-toggle` class.
 - Updated the Kippt screenshot on the homepage to reflect their recent responsive redesign and upgrade to 2.0.2.
 

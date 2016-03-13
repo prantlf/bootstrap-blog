@@ -3,7 +3,7 @@ layout: post
 title: Welcome to the Bootstrap Expo
 ---
 
-[![Bootstrap Expo](/uploads/03/bootstrap-expo.jpg)](http://expo.getbootstrap.com)
+[![Bootstrap Expo](/img/2013/03/bootstrap-expo.jpg)](http://expo.getbootstrap.com)
 
 Today we're launching a new project to showcase the absolute best projects built on Bootstrap, the [Bootstrap Expo](http://expo.getbootstrap.com).
 
@@ -13,4 +13,4 @@ As a side note, the Expo is the second project appearing under the [twbs organiz
 
 Until then, enjoy and <3,
 
-[@mdo](http://twitter.com/mdo)
+[@mdo](https://twitter.com/mdo)

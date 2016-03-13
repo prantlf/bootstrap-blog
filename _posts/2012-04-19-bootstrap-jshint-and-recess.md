@@ -14,7 +14,7 @@ We're hoping that this will both catch potentially unsafe syntax as well as enco
 
 To begin with, Bootstrap's JS will use the following options (stored in a .jshintrc file in the js dir):
 
-<pre>
+{% highlight json %}
 {
     "validthis" : true
   , "laxcomma"  : true
@@ -24,15 +24,15 @@ To begin with, Bootstrap's JS will use the following options (stored in a .jshin
   , "expr"      : true
   , "asi"       : true
 }
-</pre>
+{% endhighlight %}
 
 We hope this will make it a little easier for those looking to contribute to Bootstrap, and lessen the pain around pull requests with divergent styles. If you haven't played with JSHint, you should definitely take a moment to <a href="http://www.jshint.com/">check it out right now</a>!
 
-### [Recess](http://twitter.github.com/recess)
+### [Recess](http://twitter.github.io/recess/)
 
 Recess is a project developed at Twitter to help support our internal style guide.
 
-<img src="http://f.cl.ly/items/3R2v3e1G2P2S0y020j1D/Screen%20Shot%202012-04-19%20at%2012.57.15%20PM.png" alt="null" />
+![Recess screenshot](http://f.cl.ly/items/3R2v3e1G2P2S0y020j1D/Screen%20Shot%202012-04-19%20at%2012.57.15%20PM.png)
 
 At it’s core, Recess is a linter, but with the added ability to compile and/or reformat your css/less files: normalizing whitespace, stripping 0 values, reordering properties, and any other safe stylistic optimizations it can find.
 
